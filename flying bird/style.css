@@ -1,0 +1,80 @@
+/*
+.Button{
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    margin: auto solid white;
+    border: 4px solid gray;
+    background-color: orange;
+    position: relative;;
+    top:280px;
+    left: 171px;
+    font-size: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-style: italic;
+}
+*/
+
+#background{
+    width: 343px;
+    height: 480px; 
+    margin: 0 auto;
+    background-image: url(image/bg.jpg);
+    position: relative;
+    top: 100px;
+    
+}
+
+#startTitle{
+    width: 236px;
+    height: 77px;
+    background-image: url(image/startTitle.jpg);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#startBird{
+    position:absolute;
+    left: 150px;
+    top: 100px;
+}
+
+#grass1{
+    height: 14px;
+    width: 343px;
+	background-image: url(image/grass.jpg);
+    position: absolute;
+    top: 421px;
+}
+
+#grass2{
+    height: 14px;
+    width: 343px;
+	background-image: url(image/grass.jpg);
+    position: absolute;
+    top: 421px;
+    left: 343px;
+}
+
+#startButton{
+    width: 85px;
+    height: 29px;
+    padding: 0;
+    margin: 0;
+	background-image: url(image/start.jpg);
+    position: absolute;
+    left: 129px;
+    top: 250px;
+}
+
+#gameOver{
+	position: absolute;
+    left: 100px;
+    top: 300px;
+	text-align: center;
+	display: none;
+
+}
