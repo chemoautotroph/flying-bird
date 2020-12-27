@@ -71,10 +71,8 @@
 }
 
 #gameOver{
-	position: absolute;
-    left: 100px;
-    top: 300px;
-	text-align: center;
+	position: relative;
+	top: -200px;
 	display: none;
-
+    text-align: center;
 }
